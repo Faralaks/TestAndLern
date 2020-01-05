@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/signin.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/maincss.css') }}">
+
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/bootstrap.min.js') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/bootstrap.js') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/jquery.js') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/jquery.min.js') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/popper.js') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='js/popper.min.js') }}">
+</head>
+
+<body class="text-center"  >
+  <form  class="form-signin centrep" action="{{ url_for('.index') }}" method="post">
+
+            <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+            <br>
+            <br>
+
+            <label  class="sr-only"> login</label>
+			         <input type="text"  class="form-control"
+                     placeholder="Login" name="login" required autofocus>
+                     <br>
+
+  		    <label  class="sr-only">password</label>
+			         <input type="password"   class="form-control"
+                     placeholder="Password" name="password" required>
+                         <br>
+
+
+
+		       	<button class="btn btn-lg btn-primary btn-block" type="submit" name="btn_submit_authorization">Sign in</button>
+                <p class="text-center">Don't have account? <a href="reg">Sign up here</a></p>
+
+
+                {% if bad_auth %}
+                    <font color=#D14229 >Wrong login or password!</font>
+                {% endif %}
+        </form>
+
+    </body>
+
+
+
+
+
+
+
+</html>
