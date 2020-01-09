@@ -1,0 +1,73 @@
+2020-01-05 23:49:15 call_function:remake_users yes:yes
+2020-01-05 23:49:15 call_function:get_db state:connection done
+2020-01-05 23:49:15 call_function:get_users_col state:connection done
+2020-01-05 23:49:45 call_function:remake_files yes:yes
+2020-01-05 23:49:45 call_function:get_files_col state:connection done
+2020-01-05 23:57:56 call_function:remake_users yes:yes
+2020-01-05 23:57:56 call_function:get_db state:connection done
+2020-01-05 23:57:56 call_function:get_users_col state:connection done
+2020-01-05 23:57:56 call_function:remake_files yes:yes
+2020-01-05 23:57:56 call_function:get_files_col state:connection done
+2020-01-05 23:57:56 call_function:remake_links yes:yes
+2020-01-05 23:57:56 call_function:get_links_col state:create connection
+2020-01-05 23:57:56 call_function:add_user login:Alina email:My@cool.sun status:simple
+2020-01-05 23:57:56 call_function:add_user login:Faralaks email:iam@the.best status:admin
+2020-01-05 23:57:56 call_function:get_simple_users deleted:False
+2020-01-05 23:57:56 call_function:add_user login:Misha email:Misha@mail.ru status:simple
+2020-01-05 23:57:56 call_function:get_user login:Misha
+2020-01-05 23:57:56 call_function:add_user login:Masha email:car@gmail.com status:simple
+2020-01-05 23:57:56 call_function:check_login login:Masha
+2020-01-05 23:57:56 call_function:check_email email:car@gmail.com
+2020-01-05 23:57:56 call_function:check_login login:nologin
+2020-01-05 23:57:56 call_function:check_email email:nomail
+2020-01-05 23:57:56 call_function:add_user login:Nastya_Kuz email:foXisCool@hotmail.com status:admin
+2020-01-05 23:57:56 call_function:update_user user_id:5e124dd4a77ecd59f51b7427 login:Nastya_Bas email:goodby_vuz@narod.ru
+2020-01-05 23:57:56 call_function:get_user login:Nastya_Bas
+2020-01-05 23:57:56 call_function:add_user login:Gleb email:ne_idu@v.vuz status:simple
+2020-01-05 23:57:56 call_function:add_user login:Gleb_Snova email:sessiu@ne.sdam status:simple
+2020-01-05 23:57:56 call_function:del_user user_id:5e124dd4a77ecd59f51b7428 login:None
+2020-01-05 23:57:56 call_function:del_user user_id:None login:Gleb_Snova
+2020-01-05 23:57:56 call_function:get_user login:Gleb
+2020-01-05 23:57:56 call_function:get_user login:Gleb_Snova
+2020-01-05 23:57:56 call_function:get_simple_users deleted:True
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7423 name:Kafeshka size:1 location:/u_vuza directory:/ comment:None tags:[]
+2020-01-05 23:57:56 call_function:add_folder owner:5e124dd4a77ecd59f51b7423 name:Metro size:2033 location:/u_alinbI directory:/ comment:tupie avtobusi, dazdravstvuet metro tags:[]
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7423 name:Dom_AlinbI size:576 location:/u_alinbi/metro directory:5e124dd4a77ecd59f51b742c comment:None tags:['daleko', 'ot', 'moskvbI']
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7425 name:Pukan_Gorit size:6 location:/Matan directory:/ comment:zachem nam eto nuzno? tags:['pamagite']
+2020-01-05 23:57:56 call_function:update_file file_id:5e124dd4a77ecd59f51b742e name:Pukan_Gorit size:9 comment:zachem nam eto nuzno? tags:['param_konec']
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7424 name:Vladya size:1 location:/Alina directory:/ comment:Kto kogo eshche vozmet! tags:[]
+2020-01-05 23:57:56 call_function:get_file file_id:5e124dd4a77ecd59f51b742f
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7426 name:Dengi size:0 location:/Koshelek directory:/ comment:Ne idu v mak:( tags:[]
+2020-01-05 23:57:56 call_function:check_file owner:5e124dd4a77ecd59f51b7426 name:Dengi
+2020-01-05 23:57:56 call_function:check_file owner:5e124dd4a77ecd59f51b7426 name:Mnogo_deneg
+2020-01-05 23:57:56 call_function:check_file owner:5e124dd4a77ecd59f51b7425 name:Dengi
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7424 name:Microvolnovka size:1 location:/vuz/stolovaya directory:/ comment:None tags:[]
+2020-01-05 23:57:56 call_function:del_file file_id:5e124dd4a77ecd59f51b7431
+2020-01-05 23:57:56 call_function:check_file owner:5e124dd4a77ecd59f51b7424 name:Microvolnovka
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7423 name:Dom_Foxyashi size:1 location:/u_alinbi/metro directory:5e124dd4a77ecd59f51b742c comment:None tags:[]
+2020-01-05 23:57:56 call_function:get_user_files owner:5e124dd4a77ecd59f51b7423 directory:5e124dd4a77ecd59f51b742c
+2020-01-05 23:57:56 call_function:add_file owner:5e124dd4a77ecd59f51b7425 name:wow size:835 location:/blizzard/wow directory:/ comment:None tags:[]
+2020-01-05 23:57:56 call_function:add_comment file_id:5e124dd4a77ecd59f51b7433 comment:Umiraet
+2020-01-05 23:57:56 call_function:add_tags file_id:5e124dd4a77ecd59f51b7433 tags:['minecraft', 'jivet', 'vechno']
+2020-01-05 23:57:56 call_function:del_tags file_id:5e124dd4a77ecd59f51b7433 tags:['vechno']
+2020-01-05 23:57:56 call_function:make_link file_ids:[ObjectId('5e124dd4a77ecd59f51b7433')] comment:Go igrat wmeste!
+2020-01-05 23:57:56 call_function:make_link file_ids:[ObjectId('5e124dd4a77ecd59f51b7430'), ObjectId('5e124dd4a77ecd59f51b742f')] comment:U Vladi est Dengi
+2020-01-05 23:57:56 call_function:get_linked link:XEVG4XFwTTRtIglSPNDn8sWLeiY=
+2020-01-05 23:57:56 call_function:make_link file_ids:[ObjectId('5e124dd4a77ecd59f51b7430'), ObjectId('5e124dd4a77ecd59f51b742f')] comment:U Vladi ne budet Deneg
+2020-01-05 23:57:56 call_function:del_link link:T5vqIVIYA9HYPWCgh1GDM8UN6vc=
+2020-01-05 23:57:56 call_function:get_linked link:T5vqIVIYA9HYPWCgh1GDM8UN6vc=
+2020-01-05 23:57:56 call_function:make_link file_ids:[ObjectId('5e124dd4a77ecd59f51b742d'), ObjectId('5e124dd4a77ecd59f51b7432')] comment:Foxyasha ostanetsya doma!
+2020-01-05 23:57:56 call_function:add_shared login:Vladya user_id:5e124dd4a77ecd59f51b7423 file_ids:[ObjectId('5e124dd4a77ecd59f51b742d'), ObjectId('5e124dd4a77ecd59f51b7432')]
+2020-01-05 23:57:56 call_function:make_link file_ids:[ObjectId('5e124dd4a77ecd59f51b742c')] comment:Na, tebe nujnee!
+2020-01-05 23:57:56 call_function:add_shared login:Faralaks user_id:5e124dd4a77ecd59f51b7423 file_ids:[ObjectId('5e124dd4a77ecd59f51b742c')]
+2020-01-05 23:57:56 call_function:get_shared user_id:5e124dd4a77ecd59f51b7423
+2020-01-05 23:57:56 call_function:check_availability login:Vladya user_id:5e124dd4a77ecd59f51b7423 file_id:5e124dd4a77ecd59f51b742d
+2020-01-05 23:57:56 call_function:check_availability login:Faralaks user_id:5e124dd4a77ecd59f51b7423 file_id:5e124dd4a77ecd59f51b742c
+2020-01-05 23:57:56 call_function:check_availability login:Vladya user_id:5e124dd4a77ecd59f51b7423 file_id:5e124dd4a77ecd59f51b742c
+2020-01-05 23:57:56 call_function:check_availability login:Faralaks user_id:5e124dd4a77ecd59f51b7423 file_id:5e124dd4a77ecd59f51b742d
+2020-01-05 23:57:56 call_function:del_shared login:Vladya user_id:5e124dd4a77ecd59f51b7423 file_ids:[ObjectId('5e124dd4a77ecd59f51b7432')]
+2020-01-05 23:57:56 call_function:check_availability login:Faralaks user_id:5e124dd4a77ecd59f51b7423 file_id:5e124dd4a77ecd59f51b7432
+2020-01-05 23:57:56 call_function:get_simple_users deleted:all
+2020-01-05 23:57:56 call_function:remake_users yes:yes
+2020-01-05 23:57:56 call_function:remake_files yes:yes
+2020-01-05 23:57:56 call_function:remake_links yes:yes
