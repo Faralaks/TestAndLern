@@ -1,6 +1,0 @@
-2020-01-29 03:02:30 call_function:get_user login:fara
-2020-01-29 03:02:30 call_function:get_db state:connection done
-2020-01-29 03:02:30 call_function:get_users_col state:connection done
-2020-01-29 03:03:17 call_function:get_user login:fdsf
-2020-01-29 03:03:17 call_function:get_db state:connection done
-2020-01-29 03:03:17 call_function:get_users_col state:connection done
