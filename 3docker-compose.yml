@@ -1,0 +1,6 @@
+version: "2"
+services:
+  gotest:
+    image: faralaks/gotest
+    ports:
+      - "80:57600"
